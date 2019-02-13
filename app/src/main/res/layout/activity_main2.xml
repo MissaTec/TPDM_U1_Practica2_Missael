@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/fondo2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/paisaje1"
+        android:id="@+id/imagenbottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Este es un texto de prueba"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"
+        android:id="@+id/texto"
+        android:layout_above="@id/imagenbottom"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/numero"
+        android:id="@+id/num67"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/texto"
+        />
+
+
+
+
+</RelativeLayout>
